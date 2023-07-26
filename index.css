@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-SpecialA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    min-width: 1450px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fffef5;
+}
+
+#top {
+    background-color: #3f7154;
+    height: 23px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+    font-weight: 200;
+    font-size: 12px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    background-color: #fff;
+    height: 84px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#header ul {
+    display: flex;
+    padding-top: 30px;
+}
+
+#header ul li a {
+    padding: 0 20px;
+    color: #3f7154;
+}
+
+#header .logo {
+    padding-right: 80px;
+}
+
+/*main*/
+#main {
+    background-color: #fffef5;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.main_info {
+    padding-right: 50px;
+}
+
+.main {
+    padding-left: 40px;
+}
+
+.buy {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price {
+    padding: 20px 0;
+}
+
+.main_buy {
+    padding-left: 50px;
+}
+
+.main_buy p {
+    padding: 8px 0;
+}
+
+.cart_buy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart_ {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.cart_ a {
+    color: #3f7154;
+    text-align: center;
+    border: solid 2px #3f7154;
+    padding: 10px 60px;
+}
+
+.buy_ {
+    margin-top: 20px;
+}
+
+.buy_ a {
+    background-color: #3f7154;
+    text-align: center;
+    padding: 12px 50px;
+    color: #fff;
+}
+
+.n_pay {
+    color: #3f7154;
+    text-align: center;
+    border: solid 2px #3f7154;
+    margin-top: 8px;
+}
+
+.n_pay a {
+    padding: 10px 160px;
+}
+
+/*footer*/
+#footer {
+    background-color: #3f7154;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.insta {
+    font-family: 'LeferiPoint-SpecialA';
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.number {
+    padding-bottom: 20px;
+}
+
+/*top*/
+.top_btn {
+    position: fixed;
+    right: 70px;
+    bottom: 50px;
+}
